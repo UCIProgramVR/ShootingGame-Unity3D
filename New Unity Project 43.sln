@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Unity Project 43", "New Unity Project 43.csproj", "{970A2D18-9CBA-10FF-C2C5-6D6DD72FA4B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Unity Project 43.Plugins", "New Unity Project 43.Plugins.csproj", "{718BB700-0D4B-4528-AFA1-B61B24B98101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Unity Project 43.Editor.Plugins", "New Unity Project 43.Editor.Plugins.csproj", "{605B27FC-A568-70D2-9A88-E698D9C4939A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970A2D18-9CBA-10FF-C2C5-6D6DD72FA4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970A2D18-9CBA-10FF-C2C5-6D6DD72FA4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970A2D18-9CBA-10FF-C2C5-6D6DD72FA4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970A2D18-9CBA-10FF-C2C5-6D6DD72FA4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718BB700-0D4B-4528-AFA1-B61B24B98101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718BB700-0D4B-4528-AFA1-B61B24B98101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718BB700-0D4B-4528-AFA1-B61B24B98101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718BB700-0D4B-4528-AFA1-B61B24B98101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605B27FC-A568-70D2-9A88-E698D9C4939A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605B27FC-A568-70D2-9A88-E698D9C4939A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605B27FC-A568-70D2-9A88-E698D9C4939A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605B27FC-A568-70D2-9A88-E698D9C4939A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
