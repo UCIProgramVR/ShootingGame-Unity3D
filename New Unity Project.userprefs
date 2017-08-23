@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{BFD958C4-5209-89E8-D1A0-F25854A4DC74}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HeadBobber.js">
     <Files>
       <File FileName="Assets/Scripts/EnemyController.cs" Line="5" Column="1" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="30" Column="21" />
       <File FileName="Assets/Scripts/Spawner.cs" Line="34" Column="109" />
       <File FileName="Assets/Scripts/BulletController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="53" Column="13" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="17" Column="30" />
+      <File FileName="Assets/Scripts/HeadBobber.js" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
