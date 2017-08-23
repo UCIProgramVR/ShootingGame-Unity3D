@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{BFD958C4-5209-89E8-D1A0-F25854A4DC74}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Spawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="20" Column="18" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="15" Column="15" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="27" Column="25" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="25" Column="3" />
+      <File FileName="Assets/Scripts/Spawner.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
