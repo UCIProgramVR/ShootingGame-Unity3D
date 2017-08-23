@@ -13,8 +13,15 @@ public class Spawner : MonoBehaviour {
     int currentWaveNumber;
     Wave currentWave;
 
-    private void Start()
+    public ArrayList spawnTargetNomiatedPlaces = new ArrayList();
+
+    void Start()
     {
+        spawnTargetNomiatedPlaces.Add(GameObject.FindGameObjectWithTag("SpawnPlace1").transform.position);
+        spawnTargetNomiatedPlaces.Add(GameObject.FindGameObjectWithTag("SpawnPlace2").transform.position);
+        spawnTargetNomiatedPlaces.Add(GameObject.FindGameObjectWithTag("SpawnPlace3").transform.position);
+        spawnTargetNomiatedPlaces.Add(GameObject.FindGameObjectWithTag("SpawnPlace4").transform.position);
+
         NextWave();
     }
 
@@ -24,7 +31,7 @@ public class Spawner : MonoBehaviour {
             enemiesRemainingToSpawn--;
             nextSpawnTime = Time.time + currentWave.timeBetweenSpawns;
 
-            EnemyController spawnedEnemy = Instantiate(enemy, Vector3.zero, Quaternion.identity) as EnemyController;
+            EnemyController spawnedEnemy = Instantiate(enemy, (UnityEngine.Vector3)spawnTargetNomiatedPlaces[Random.Range(0, 3)], Quaternion.identity) as EnemyController;
         }
     }
 

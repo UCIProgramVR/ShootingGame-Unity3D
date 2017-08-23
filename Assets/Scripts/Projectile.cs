@@ -34,9 +34,6 @@ public class Projectile : MonoBehaviour
 	void OnHitObject(RaycastHit hit)
 	{
         Debug.Log(hit.collider.gameObject.name);
-
         GameObject.Destroy(hit.collider.gameObject);
-
-
 	}
 }
