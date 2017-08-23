@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour {
     NavMeshAgent pathFinder;
     Transform target;
 
+
 	// Use this for initialization
 	void Start () {
         pathFinder = GetComponent<NavMeshAgent>();
